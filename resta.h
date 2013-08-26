@@ -1,5 +1,5 @@
 #include "stdio.h"
-
+#include <iostream>
 class Resta
 {
 	public:
@@ -14,4 +14,5 @@ int Resta::restaFunc(int res1, int res2)
 	b=res2;
 	result=a-b;
 	return (result);
+	std::cout<<"pruebaGIT"<<std::endl;
 }
