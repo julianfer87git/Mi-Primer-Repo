@@ -1,4 +1,5 @@
 #include "stdio.h"
+#include <iostream>
 
 class Multi
 {
@@ -14,4 +15,5 @@ int Multi::multiFunc(int mul1, int mul2)
 	b=mul2;
 	result=a*b;
 	return (result);
+	std::cout<<"la multiplicacion modificada"<<std::endl;
 }
