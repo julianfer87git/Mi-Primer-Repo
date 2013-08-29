@@ -16,4 +16,5 @@ int Resta::restaFunc(int res1, int res2)
 	result=a-b;
 	return (result);
 	std::cout<<"pruebaGIT"<<std::endl;
+	//estoy desde el nuevo repositorio
 }
